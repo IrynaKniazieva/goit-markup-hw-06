@@ -310,6 +310,25 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.headline {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   padding-top: 40px;
+   padding-bottom: 12px;
+   
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--title-text-color);
+}
+
 /* секции особенности  */
 
 .section-feature {
