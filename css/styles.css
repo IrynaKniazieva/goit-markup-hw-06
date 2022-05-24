@@ -310,6 +310,11 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.modal-icon:hover,
+.modal-icon:focus {
+    fill: var(--accent-color);
+}
+
 .headline {
    display: flex;
    align-items: center;
@@ -327,6 +332,14 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--title-text-color);
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
 }
 
 /* секции особенности  */
