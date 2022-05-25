@@ -63,24 +63,31 @@
                         <b class="headline">Оставьте свои данные, мы вам перезвоним</b>
                         <form class="modal-form">
                             <div class="container-inputs">
-                                <label>
-                                    Имя
-                                    <input type="text" name="user-name" />
+                                <label class="form-group">
+                                    <span class="form-label">Имя</span>
+                                    <input class="form-input" type="text" name="user-name" />
                                 </label>
-                                <label>
-                                    Телефон
-                                    <input type="tel" name="phone-number" />
+                                <label class="form-group">
+                                    <span class="form-label">Телефон</span>
+                                    <input class="form-input" type="tel" name="phone-number" />
                                 </label>
-                                <label>
-                                    Email
-                                    <input type="email" name="email" />
+                                <label class="form-group">
+                                    <span class="form-label">Email</span>
+                                    <input class="form-input" type="email" name="email" />
                                 </label>
-                                <label>
-                                    Комментарий
+                                <label class="form-group">
+                                    <span class="form-label">Комментарий</span>
                                     <textarea name="feedback" rows="5" placeholder="Введите текст"></textarea>
                                   </label>
+                                  
                             </div>
-                            <button type="submit">Отправить</button>
+                            <div class="container-chekbox">
+                                <label class="form-chekbox">
+                                    <input class="form-agreement" type="checkbox" name="agreement"/>
+                                    Соглашаюсь с рассылкой и принимаю <span class="special-text">Условия договора</span>
+                                </label>
+                            </div>
+                            <button class="form-button" type="submit">Отправить</button>
                         </form>
                     </div>
                 </div>                              
