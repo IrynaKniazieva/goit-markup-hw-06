@@ -344,6 +344,7 @@ color: var(--title-text-color);
 }
 
 .form-group {
+    position: relative;
     display: flex;
     flex-direction: column;
 
@@ -351,6 +352,7 @@ color: var(--title-text-color);
        
 }
 
+ 
 .form-label {
     padding-bottom: 4px;
 }
@@ -370,10 +372,25 @@ color: var(--title-text-color);
 .form-input:hover,
 .form-input:focus {
     border: 1px solid #2196F3;
+}  
+
+.icon-group-modal {
+    position: absolute;
+    top: 50%;
+    left: 12px;
 }
 
+.icon-group-modal:hover,
+.icon-group-modal:focus {
+    
+    fill: var(--accent-color);
+}
 
 .form-textarea {
+    width: 100%;
+
+    resize: none;
+
     padding: 12px 16px;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -886,6 +903,7 @@ align-items: center;
 letter-spacing: 0.03em;
 
 color: rgba(255, 255, 255, 0.6);
+background-color: transparent;
 
 
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -894,17 +912,24 @@ border-radius: 4px;
 }
 
 .button-footer {
-    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 36px;
 }
 
 .form-button-footer {
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
 
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 55px;
-    padding-left: 56px;
+    padding-right: 62px;
+    padding-left: 29px;
+
+    width: 200px;
    
 
     border: none;
@@ -925,6 +950,16 @@ border-radius: 4px;
 .form-button-footer:hover,
 .form-button-footer:focus {
     background-color: #188CE8;
+}
+
+.footer-icon {
+    position: absolute;
+    top: 13px;
+    right: 28px;
+    
+
+    width: 24px;
+    height: 24px;
 }
 
 /* Portfolio */
