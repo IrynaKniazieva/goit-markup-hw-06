@@ -403,6 +403,12 @@ color: #757575;
     fill: var(--accent-color);
 } 
 
+/* .form-input:focus + .icon-group-modal {
+    
+    fill: var(--accent-color);
+}  */
+
+
 .form-textarea {
     width: 100%;
 
